@@ -1,0 +1,19 @@
+<p id="pera"></p>
+
+
+
+<form>
+<textarea id="words" rows="30" cols="20">Enter comment</textarea>
+<input type="button" onclick="getwords()" value="Enter" />
+</form>
+
+<script type="text/javascript">
+function getwords(){
+text = words.value;
+document.getElementById("para").innerHTML = text
+document.getElementById("words").innerHTML = "enter"
+}
+</script>
+
+
+
